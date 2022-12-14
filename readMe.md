@@ -7,10 +7,11 @@ This project was done as a part of a three part assessment. The first part inclu
 
 1. Write a script, urls.js, that does the following:
 
-a. It is called on the command line like node urls.js FILENAME, and it reads the contents of FILENAME (each line of that file will be a URL).
+    a. It is called on the command line like node urls.js FILENAME, and it reads the contents of FILENAME (each line of that file will be a URL).
 
-b. For each URL, it will get that page (a GET request to the URL) and save the HTML in a new file.
-c. For each URL, the output filename should be the hostname of the URL. For example, for the input URL http://yahoo.com/blah/blah, your script should write the contents to a plain text file called yahoo.com
+    b. For each URL, it will get that page (a GET request to the URL) and save the HTML in a new file.
+    
+    c. For each URL, the output filename should be the hostname of the URL. For example, for the input URL http://yahoo.com/blah/blah, your script should write the contents to a plain text file called yahoo.com
 
 2. Handle Errors
 a. If you cannot read the original file (FILENAME), immediately end your script with an error printed to the console.
